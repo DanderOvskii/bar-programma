@@ -1,0 +1,53 @@
+.main{
+    
+    width: 100%;
+    flex-direction: column;
+}
+
+.naam{
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+}
+.content{
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  justify-content: center;
+}
+.productcontainer{
+    
+    height: 600px;
+    width: 400px;
+    background: #333;
+    margin: 0;
+    margin-bottom: 50px; 
+}
+
+.plaatje{
+    height: 200px;
+    width: 200px;
+    background: green;
+    position: relative;
+    margin-top: 40px;
+    top: 0%;
+    left: 50%;
+    transform:translate(-50%, -0%);
+}
+
+.productsoort{
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+}
+
+.knop{
+    height: 100px;
+    width: 200px;
+    position: relative;
+    margin-top: 40px;
+    top: 0%;
+    left: 50%;
+    transform:translate(-50%, -0%);
+}
